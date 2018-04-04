@@ -1,4 +1,4 @@
-# CheckBox / ListBox
+# KeyPress
 
 Python class for capture and return keypress.
 
