@@ -1,4 +1,4 @@
-# KeyPress
+# Key Press
 
 Python class for capture and return keypress.
 
@@ -59,7 +59,8 @@ while result_Keypress <> 'Ctrl+ C':
 
     
 ```
-[![](https://github.com/faustobranco/keypress/blob/master/Capture.PNG)](https://github.com/faustobranco/keypress/blob/master/Capture.PNG)
+![](Capture.PNG)
+
 
 ## Versioning
 ```

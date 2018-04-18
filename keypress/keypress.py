@@ -15,8 +15,11 @@
 #######################################################################################
 import signal
 import sys
+import keypress
 
 __version__ = '1.0.0'
+
+obj_keypress = keypress.Get_Key()
 
 class Get_Key:
     def _getch(self, keylen=1):
