@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/keypress/__init__.py
+src/keypress.egg-info/PKG-INFO
+src/keypress.egg-info/SOURCES.txt
+src/keypress.egg-info/dependency_links.txt
+src/keypress.egg-info/top_level.txt

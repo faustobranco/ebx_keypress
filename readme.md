@@ -34,9 +34,9 @@ result_Keypress = ''
 
 obj_keypress = keypress.Get_Key()
 
-print "Press keys or Ctrl+C to Exit"
+print("Press keys or Ctrl+C to Exit")
 
-while result_Keypress <> 'Ctrl+ C':
+while result_Keypress != 'Ctrl+ C':
     result_Keypress = obj_keypress.keypress()
     print(result_Keypress)
 
@@ -47,9 +47,9 @@ while result_Keypress <> 'Ctrl+ C':
 ```
 =======================================================================================
 == Log Changes: 
-== Date:            2021-06-12
+== Date:            2021-05-12
 == Author:          Fausto Branco
-== Version:         1.0.0
+== Version:         1.1.0
 == Description:     Initial Version
 =======================================================================================
 

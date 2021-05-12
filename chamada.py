@@ -1,4 +1,8 @@
-import keypress
+
+import pydevd_pycharm
+pydevd_pycharm.settrace('localhost', port=12345, stdoutToServer=True, stderrToServer=True)
+
+import src.keypress as keypress
 
 result_Keypress = ''
 
