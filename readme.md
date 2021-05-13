@@ -9,11 +9,11 @@ Developed and tested in Linux and Python 3
 
 ### Installing
 
-    pip3 install keypress
+    pip3 install ebx_keypress
 
 or from source:
 
-    python3 -m pip install [your_path]/keypress/
+    python3 -m pip install [your_path]/ebx_keypress/
 
 
 ## Functions
@@ -28,11 +28,11 @@ Return: String with pressed key
 ## Examples of use
 
 ```
-import keypress
+import ebx_keypress
 
 result_Keypress = ''
 
-obj_keypress = keypress.Get_Key()
+obj_keypress = ebx_keypress.Get_Key()
 
 print("Press keys or Ctrl+C to Exit")
 

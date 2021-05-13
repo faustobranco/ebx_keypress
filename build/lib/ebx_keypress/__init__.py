@@ -1,5 +1,5 @@
 #######################################################################################
-## Script Info:		keypress.py - Class with functions to capture pressed keys 
+## Script Info:		ebx_keypress.py - Class with functions to capture pressed keys
 ##
 #######################################################################################
 ## Create Author:	Fausto Branco
@@ -32,7 +32,7 @@ class Get_Key:
 
     def keypress(self):
         """
-        Desc: keypress: Return a string with description os pressed key; Ex: Up, Down, Ctrl+ Up, etc
+        Desc: ebx_keypress: Return a string with description os pressed key; Ex: Up, Down, Ctrl+ Up, etc
         """
         ret_keypress = ''
         # while True:
